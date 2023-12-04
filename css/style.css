@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/texture-1.jpg);
+    background-size: contain; 
+    /* background-size: cover; */
+    background-repeat: repeat-y;
+    color: #fff;
+    display: grid;
+    place-content: center;
+}
+
+.elm-home, .elm-home-1{
+    display: grid;
+    place-content: center;
+    margin: 2rem 5rem;
+    width: 1000px;
+    padding: 3rem;
+    /* background-color: #000; */
+}
+
+.elm-home{
+    background-image: url(../img/content-mid.png);
+    background-size: contain; 
+}
+
+.elm-home-1{
+    background-image: url(../img/content-mid.png);
+    background-repeat: repeat-y;
+    background-size: contain; 
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2, h3{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-top: 30px; */
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+q{
+    margin: 0 2rem;
+}
+
+blockquote{
+    margin: 0 3rem;
+    background: #1d1c1c;
+    padding: 1rem;
+}
+
+.links-inicio{
+    display: inline-flex;
+    /* border: 3px solid red; */
+    justify-content: space-between;
+    font-size: 50px;
+    padding: 2rem;
+    background-image: url(../img/content-mid.png);
+    background-size: contain; 
+}
+
+footer{
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+    text-align: center;
+    background-image: url(../img/content-mid.png);
+    background-size: contain; 
+    margin-bottom: 1rem;
+    
+}
