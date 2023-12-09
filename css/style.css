@@ -6,9 +6,10 @@
 
 body{
     background-image: url(../img/texture-1.jpg);
-    /* background-size: contain;  */
-     background-size: contain; 
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    /*background-repeat: repeat-y; */
     color: #fff;
     display: grid;
     place-content: center;
@@ -27,11 +28,11 @@ header{
     text-align: center;
     /* background: tan;*/
     padding:  4rem 0;
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(../img/content-mid.png);
+    /* background-image: url(../img/texture-8.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;  */
     margin-bottom: 2rem;
 }
 
@@ -40,7 +41,7 @@ nav{
     justify-content: space-between;
     padding: 20px;
     text-align: center;
-    background-image: url(../img/content-mid.png);
+    background-image: url(../img/texture-2.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     margin-bottom: 2rem;
@@ -48,17 +49,18 @@ nav{
 
 nav a{
     /* border: 1px solid #fff; */
-    color: #fff;
+    background-color:  #0D2C0D;
+    color: #A42222;
     padding: 1rem;
-    /* background: #000; */
     text-decoration: none;
     font-size: 2rem;
+    font-weight: bold;
     
 }
 
 nav a:hover{
-    background-color: #fff;
-    color: #000;
+    background-color:   #A42222;
+    color: #0D2C0D;
 }
 
 

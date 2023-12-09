@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="icon" href="img/logo-2.ico">
 </head>
-<body>
+<body onclick="PlayAudio()">
    <div id="container">
         <header>Pesadilla en Elm Street</header>
         <nav>
@@ -80,7 +80,7 @@
             </div>
 
             <div class="aside-elm-home">
-                <video width="100%" src="video/Dokken-DreamWarriors.mp4" controls ></video>
+                <video width="100%" src="video/Dokken-DreamWarriors.mp4"  autoplay muted controls ></video>
                 <a href="https://www.youtube.com/watch?v=dAtARhQXNPA" target="_blank">Dream Warriors VIDEO!!</a>
             </div>   
             
@@ -116,6 +116,18 @@
                 3335554444         
             </address>
         </footer>
+
+        <audio id="dream-warriors"  loop>
+            <source src="audio/Dokken-DreamWarriors_2.mp3" type="audio/mpeg">
+            este navegador no acepta formatos audio
+        </audio>
     </div> 
+
+    <script>
+        function PlayAudio(){
+            document.getElementById("dream-warriors").play();
+        }
+    </script>
+    
 </body>
 </html>
