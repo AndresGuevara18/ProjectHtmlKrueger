@@ -6,26 +6,107 @@
 
 body{
     background-image: url(../img/texture-1.jpg);
-    background-size: contain; 
-    /* background-size: cover; */
+    /* background-size: contain;  */
+     background-size: contain; 
     background-repeat: repeat-y;
     color: #fff;
     display: grid;
     place-content: center;
 }
 
+
+#container{
+    width: 960px;
+    margin: auto;
+    /* background: #ccc; */
+   padding: 20px;
+   /* border: 2px  dashed  black; */
+}
+
+header{
+    text-align: center;
+    /* background: tan;*/
+    padding:  4rem 0;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../img/content-mid.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-bottom: 2rem;
+}
+
+nav{
+    /* background: #666; */
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    background-image: url(../img/content-mid.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-bottom: 2rem;
+}
+
+nav a{
+    /* border: 1px solid #fff; */
+    color: #fff;
+    padding: 1rem;
+    /* background: #000; */
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+
+nav a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+section, aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+section{
+    width: 70%;
+    /* background: #630101;
+    padding: 20px; */
+}
+
+
+aside{
+    text-align: center;
+    width: 30%;
+    /* background: blue; */
+    /* padding: 30px; */
+    /* background-image: url(../img/content-mid.png); */
+    /* background-size: cover;  */
+}
+
+.aside-elm-home{
+    padding: 2rem;
+    background-image: url(../img/content-mid.png);
+    background-size: cover; 
+    margin-top: 4rem;
+}
+
+.aside-elm-home img{
+    width: 100%;
+}
+
+
 .elm-home, .elm-home-1{
     display: grid;
     place-content: center;
-    margin: 2rem 5rem;
-    width: 1000px;
+    /* margin: 2rem 5rem; */
     padding: 3rem;
     /* background-color: #000; */
+    margin-bottom: 2rem;
 }
 
 .elm-home{
     background-image: url(../img/content-mid.png);
-    background-size: contain; 
+    background-size: cover; 
 }
 
 .elm-home-1{
@@ -76,7 +157,7 @@ footer{
     padding: 1rem;
     text-align: center;
     background-image: url(../img/content-mid.png);
-    background-size: contain; 
+    background-size: cover; 
     margin-bottom: 1rem;
     
 }
