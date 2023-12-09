@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="css/style-peli.css" type="text/css">
     <link rel="icon" href="img/logo-2.ico">
 </head>
-<body>
+<body onclick="PlayAudio()">
     <div id="container">
         <header>Pesadilla en Elm Street</header>
         <nav>
-            <a href="index.html">Inicio</a>
-            <a href="Peliculas.html">Películas</a>
-            <a href="galeria.html">Galeria</a>
+            <a href="index.html" onclick="PlayAudio()">Inicio</a>
+            <a href="Peliculas.html" onclick="PlayAudio()">Películas</a>
+            <a href="galeria.html" onclick="PlayAudio()">Galeria</a>
         </nav>
 
         <section>
@@ -132,6 +132,18 @@
                 3335554444               
             </address>
         </footer>
+
+        <audio id="dream-warriors"  loop>
+            <source src="audio/Dokken-DreamWarriors_2.mp3" type="audio/mpeg">
+            este navegador no acepta formatos audio
+        </audio>
     </div>
+
+    <script>
+        function PlayAudio(){
+            document.getElementById("dream-warriors").play();
+        }
+    </script>
+
 </body>
 </html>
