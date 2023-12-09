@@ -83,7 +83,7 @@ nav a:hover{
 }
 
 
-.elm-home, .elm-home-1{
+.elm-home, .elm-home-1, .elm-home-2{
     display: grid;
     place-content: center;
     /* margin: 2rem 5rem;
@@ -99,12 +99,18 @@ nav a:hover{
     margin-bottom: 2rem;
 }
 
-.elm-home-1{
+.elm-home-1, .elm-home-2{
     background-image: url(../img/content-mid.png);
     background-repeat: repeat-y;
     background-size: contain;
     margin-bottom: 4rem; 
 }
+
+.elm-home-2{
+    display: inline-block;
+    vertical-align: top;
+}
+
 
 h1{
     font-size: 35px;
@@ -123,9 +129,12 @@ h2, h3{
     font-weight: bolder;
 }
 
-
-img{
+.elm-home-1 img{
     width: 600px;
+}
+ 
+.elm-home-2 img{
+    width: 400px;
 }
 
 footer{
