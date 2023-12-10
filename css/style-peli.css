@@ -89,8 +89,12 @@ h2, h3{
     font-weight: bolder;
 }
 
+.img-container{
+    text-align: center;
+}
+
 img{
-    width:  100%;
+    width:  60%;
     margin-top: 2rem;
     border: solid red 2px;
     border-radius: 10px;
